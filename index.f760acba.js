@@ -1,0 +1,2 @@
+!function e(t){var n=!0,r=!1,i=void 0;try{for(var l,c=t.children[Symbol.iterator]();!(n=(l=c.next()).done);n=!0)!function(){var t=l.value,n=document.createElement("span"),r=t.querySelector("ul");n.innerHTML=t.firstChild.textContent,t.firstChild.replaceWith(n),r&&(t.firstChild.addEventListener("click",function(){r.hidden=!r.hidden}),e(r))}()}catch(e){r=!0,i=e}finally{try{n||null==c.return||c.return()}finally{if(r)throw i}}}(document.querySelector(".tree"));
+//# sourceMappingURL=index.f760acba.js.map
